@@ -24,7 +24,7 @@ class Game {
   }
 
   elemets () {
-    Form.hide ();
+    form.hide ();
 
     
   }
@@ -33,7 +33,7 @@ class Game {
     this.elements ();
     Player.getPlayersInfo ()
       if (allPlayers !== undefined ) {
-        image (backGroundImg2, 800,800)
+        image (backGroundImg2, 0, -height*5 ,width, height*6)
         drawSprites ()
       }
       

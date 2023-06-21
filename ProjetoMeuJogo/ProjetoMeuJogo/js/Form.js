@@ -1,3 +1,4 @@
+
 class Form {
   constructor() {
     this.input = createInput("").attribute("placeholder", "Digite seu nome");
@@ -33,8 +34,8 @@ class Form {
       this.greeting.html(message);
       playerCount += 1;
       player.name = this.input.value ();
-      playerIndex = playerCount; 
-      player.addPlayer ;
+      player.index = playerCount; 
+      player.addPlayer();
       player.updateCount (playerCount); 
     });
   }

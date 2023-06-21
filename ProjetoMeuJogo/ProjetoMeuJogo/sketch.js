@@ -19,6 +19,8 @@ var boatImg4;
 var boatImg5;
 
 var gridImg;
+var reset;
+var resetImg;
 
 var explosionImg;
 var bombImg;
@@ -43,6 +45,7 @@ function preload() {
   //boatImg5 = loadImage("./Images/navio5.png")
   //seaImg = loadImage("./Images/azul.png")
   //gridImg = loadImage("./Images/grid.png")
+  
 
   //explosionImg = loadImage("./Images/explosão.png")
   //bombImg = loadImage("./Images/bomba.png")

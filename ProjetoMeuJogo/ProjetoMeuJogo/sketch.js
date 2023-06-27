@@ -72,6 +72,8 @@ function draw() {
 
 if (gameState === 1) {
   game.play ();
+  background(backGroundImg2);
+
 }
 
 }
